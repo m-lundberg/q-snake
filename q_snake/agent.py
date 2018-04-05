@@ -1,7 +1,7 @@
 import random
 from collections import deque
 import numpy as np
-from q_snake.neural_network import DeepNeuralNetwork
+from neural_network import DeepNeuralNetwork
 
 
 class DeepQLearningAgent:

@@ -1,5 +1,5 @@
-from q_snake.game import SnakeGame
-from q_snake.agent import DeepQLearningAgent
+from game import SnakeGame
+from agent import DeepQLearningAgent
 import time
 import os
 
