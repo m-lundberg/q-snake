@@ -5,8 +5,6 @@ import os
 
 
 if __name__ == '__main__':
-    episodes = 1000
-
     game = SnakeGame(framerate=8)
 
     model_path = None
@@ -16,7 +14,9 @@ if __name__ == '__main__':
 
     game.print_help()
 
-    for episode in range(episodes):
+    episode = 0
+    while True:
+        episode += 1
         print(f'Starting episode number {episode}')
 
         state, info = game.reset()
